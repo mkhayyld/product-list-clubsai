@@ -1,0 +1,72 @@
+#uploadimage{
+    display: grid;
+    aspect-ratio: 3 / 2;
+    width: 90%;
+    background-color: rgb(201, 201, 201);
+    border-radius: 7px/8px;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+    cursor:pointer;
+}
+#uploadimage:hover #uploadicon{
+    fill:rgb(165, 69, 255);
+}
+#uploadimage:active{
+    background-color: rgb(192, 192, 192);
+}
+#uploadicon{
+    display: block;
+    margin:auto;
+    width: 40%;
+    height: 60%;
+    fill:rgba(0, 0, 0, 0.575);
+}
+#tagsinput{
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    resize: none;
+}
+#addproducttext {
+    display: none;
+    
+}
+
+#addproductinput {
+    display: block;
+    width: 90%;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px/5px;
+    text-align: center;
+    font-size: clamp(11pt, 2.5vw, 20pt);
+
+}
+
+#addcard {
+    color: rgb(71, 0, 165);
+    background-color: rgb(138, 138, 138);
+}
+
+#addcard:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(99, 41, 175, 0.555);
+}
+
+#addcard:active {
+    background-color: rgb(97, 37, 177);
+}
+
+#addcardinput {
+    color: rgb(71, 0, 165);
+    background-color: rgb(138, 138, 138);
+}
+

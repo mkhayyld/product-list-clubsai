@@ -1,0 +1,59 @@
+.list{
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(199, 199, 199);
+border-radius: 5px/6px;
+width:90%;
+height: fit-content;
+margin: auto;
+justify-content: start;
+padding: 0.5%;
+align-items: flex-start;
+font-size: 10pt;
+}
+.card{
+border-radius: 7px/8px;
+margin-top: 0.25%;
+margin-bottom: 0.25%;
+margin-left: 0.25%;
+margin-right: 0.25%;
+align-self: flex-start;
+padding-top: 1%;
+padding-bottom: 1%;
+width: 24.5%;
+height: fit-content;
+
+}
+#productcard{
+background-color: rgb(97, 37, 177);
+color: white;
+}
+#addcard{
+    color:rgb(71, 0, 165);
+    background-color: rgb(138, 138, 138);
+    }
+#addcard:hover{
+    cursor: pointer;
+    color:white;
+    background-color: rgba(99, 41, 175, 0.555);
+}
+
+#addcard:active{
+    background-color: rgb(97, 37, 177);
+}
+#addcardinput{
+    color:rgb(71, 0, 165);
+    background-color: rgb(138, 138, 138);
+}
+#addtasktext{
+    display: block;
+}
+#addtaskinput{
+    display: none;
+    width: 94%;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px/5px;
+    text-align: center;
+}
